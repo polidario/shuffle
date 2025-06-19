@@ -1,4 +1,4 @@
-# 🔀 shuffle-array
+# 🔀 shuffle
 
 A lightweight utility to shuffle the elements of an array in place using the Fisher–Yates algorithm.
 
@@ -9,13 +9,7 @@ A lightweight utility to shuffle the elements of an array in place using the Fis
 Install via npm:
 
 ```
-npm install shuffle-array
-```
-
-Or, for local development:
-
-```
-npm link
+npm install @bernardpolidario/shuffle
 ```
 
 ---
@@ -23,7 +17,7 @@ npm link
 ## 📦 Usage
 
 ```js
-const shuffleArray = require('shuffle-array');
+const shuffleArray = require('@bernardpolidario/shuffle');
 
 const items = ['apple', 'banana', 'cherry', 'date'];
 const shuffled = shuffleArray(items);
@@ -73,7 +67,7 @@ To test this package locally:
 ```
 npm link
 # then in another project
-npm link shuffle-array
+npm link @bernardpolidario/shuffle
 ```
 
 ---
